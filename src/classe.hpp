@@ -164,7 +164,7 @@ void classe::rang_etudiants() {
 
     // Affichage du rang des eleves dans la classe
     system("cls");
-    cout << "Rang des eleves de la classe " << niveau << " - " << niveau << " " << groupe << endl << endl;
+    cout << "Rang des eleves de la classe " << niveau << " - " << groupe << endl << endl;
     for (i = 0; i < liste_moyennes.size(); i++) {
         for (j = 0; j < liste_etudiants.size(); j++) {
             if (liste_etudiants[j]->get_moyenne() == liste_moyennes[i]) {

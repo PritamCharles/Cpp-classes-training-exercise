@@ -133,7 +133,7 @@ void etudiant::set_moyenne(double moy) {
 }
 
 ostream &operator<<(ostream &out, const etudiant &e) {
-    // Affichage des cooerdonnees de l'etudiant
+    // Affichage des coordonnees de l'etudiant
     system("cls");
     tirets();
     out << "Fiche Etudiant" << endl;
